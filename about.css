@@ -1,0 +1,38 @@
+/* Our Story Styles */
+
+.ourStory__subtitle {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 2rem;
+}
+.ourStory__text,
+.ourGoals__text {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+	color: var(--black-2);
+}
+@media only screen and (min-width: 768px) {
+	.ourStory__wrapper {
+		flex-direction: row;
+		gap: 3rem;
+	}
+	.ourStory__info {
+		flex: 1;
+	}
+	.ourStory__title,
+	.ourGoals__title {
+		font-size: 3.6rem;
+	}
+	.ourStory__subtitle {
+		font-size: 1.8rem;
+	}
+	.ourStory__text,
+	.ourGoals__text {
+		font-size: 1.8rem;
+		max-width: 800px;
+	}
+}
+
+
+
